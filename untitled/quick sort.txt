@@ -1,0 +1,50 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void qsort(int *a, int l, int r)
+{
+    int mid=(l+r)/2;
+    int i=l;
+    int j=r;
+    int key=a[mid];
+    while (i<=j)
+    {
+        while (a[i]<key)
+        {
+            ++i;
+        }
+        while (a[j]>key)
+        {
+            --j;
+        }
+        if (i<=j)
+        {
+            swap(a[i++],a[j--]);
+        }
+    }
+    if (i<r)
+    {
+        qsort(a,i,r);
+    }
+    if (j>l)
+    {
+        qsort(a,l,j);
+    }
+}
+int main() {
+    int n;
+    cin >> n;
+    int x[n];
+    for (int i=0;i<n;i++)
+    {
+        cin >> x[i];
+    }
+    qsort(x,0,n-1);
+    for (int i=0;i<n;i++)
+    {
+        cout << x[i] << " ";
+    }
+    return 0;
+}

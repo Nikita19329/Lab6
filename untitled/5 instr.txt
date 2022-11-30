@@ -1,0 +1,45 @@
+#include <iostream>
+#include <algorithm>
+#include <cmath>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+int main(int argc, char* argv[]) {
+    cout.precision(2);
+    if (argc!=4)
+    {
+        cout << "Error 1";
+        return 0;
+    }
+    int a,b;
+    a= stoi(argv[1]);
+    b= stoi(argv[3]);
+    string op=argv[2];
+    if (op=="+") {
+        cout << a + b;
+    }
+    else {
+        if (op == "-") {
+            cout << a - b;
+        } else {
+            if (op == "*") {
+                cout << a * b;
+            } else {
+                if (op == "/") {
+                    if (b != 0) {
+                        cout << a / b;
+                    } else {
+                        cout << "delenie na 0";
+                    }
+                } else {
+                    cout << "operator not found";
+                }
+            }
+        }
+    }
+
+
+    return 0;
+}

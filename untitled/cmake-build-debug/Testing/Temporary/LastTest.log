@@ -1,0 +1,71 @@
+Start testing: Nov 30 17:25 RTZ 2 (ceia)
+----------------------------------------------------------
+1/4 Testing: 8plus2
+1/4 Test: 8plus2
+Command: "D:/CLionProjects/untitled/cmake-build-debug/untitled.exe" "8" "2" "+"
+Directory: D:/CLionProjects/untitled/cmake-build-debug
+"8plus2" start time: Nov 30 17:25 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+10
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[10]
+"8plus2" end time: Nov 30 17:25 RTZ 2 (ceia)
+"8plus2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: 1minus83
+2/4 Test: 1minus83
+Command: "D:/CLionProjects/untitled/cmake-build-debug/untitled.exe" "1" "83" "-"
+Directory: D:/CLionProjects/untitled/cmake-build-debug
+"1minus83" start time: Nov 30 17:25 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+-82
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-82]
+"1minus83" end time: Nov 30 17:25 RTZ 2 (ceia)
+"1minus83" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: 2multiply2
+3/4 Test: 2multiply2
+Command: "D:/CLionProjects/untitled/cmake-build-debug/untitled.exe" "2" "2" "*"
+Directory: D:/CLionProjects/untitled/cmake-build-debug
+"2multiply2" start time: Nov 30 17:25 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+4
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4]
+"2multiply2" end time: Nov 30 17:25 RTZ 2 (ceia)
+"2multiply2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: 100divide2
+4/4 Test: 100divide2
+Command: "D:/CLionProjects/untitled/cmake-build-debug/untitled.exe" "100" "2" "/"
+Directory: D:/CLionProjects/untitled/cmake-build-debug
+"100divide2" start time: Nov 30 17:25 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+50
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[50]
+"100divide2" end time: Nov 30 17:25 RTZ 2 (ceia)
+"100divide2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 30 17:25 RTZ 2 (ceia)
